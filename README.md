@@ -22,11 +22,11 @@
 ```javascript
 async user.index({
   nickname: 'Debs',
-  age: 20,
+  age: 21,
   birthday: '09/03',
-  vocation: 'Programming',
+  vocation: 'Technology',
 formation: [
-    ['Full stack','ProgramadoresDoAmanha'],
+    ['Gestão de TI','ULBRA'],
   ],
   nationality: 'Brazilian'
 });
