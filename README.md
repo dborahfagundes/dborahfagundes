@@ -22,12 +22,22 @@
 ```javascript
 async user.index({
   nickname: 'Debs',
-  age: 21,
+  age: 22,
   birthday: '09/03',
   vocation: 'Technology',
-formation: [
-    ['Gestão de TI','ULBRA'],
+
+  formation: [
+    ['Ciência de Dados e Inteligência Artificial', 'UFSM'],
+    ['Gestão de TI', 'ULBRA'],
   ],
+
+  interests: [
+    'Ciência de Dados',
+    'Inteligência Artificial',
+    'Machine Learning',
+    'Tecnologia'
+  ],
+
   nationality: 'Brazilian'
 });
 
